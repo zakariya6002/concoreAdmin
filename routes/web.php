@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HomeController;
 use App\Http\Controllers\jobs\JobController;
 use App\Http\Controllers\tutor\TutorController;
 use App\Http\Controllers\sessions\SessionController;
