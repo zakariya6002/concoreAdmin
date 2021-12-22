@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\jobs\JobController;
+use App\Http\Controllers\tutor\TutorController;
+use App\Http\Controllers\sessions\SessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +19,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::resource('tutors',TutorController::class);
+Route::resource('jobs',JobController::class);
+Route::resource('sessions',SessionController::class);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

@@ -46,11 +46,11 @@
 											</span>
 											<!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Default</span>
+										<span class="menu-title">Tutors</span>
 									</a>
 								</div>
 								<div class="menu-item">
-									<a class="menu-link" href="../../demo1/dist/dashboards/no-toolbar.html">
+									<a class="menu-link" href="{{route('jobs.index')}}">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: icons/duotune/art/art002.svg-->
 											<span class="svg-icon svg-icon-2">
@@ -61,11 +61,11 @@
 											</span>
 											<!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">No Toolbar</span>
+										<span class="menu-title">Jobs</span>
 									</a>
 								</div>
 								<div class="menu-item">
-									<a class="menu-link" href="../../demo1/dist/dashboards/light-aside.html">
+									<a class="menu-link" href="#">
 										<span class="menu-icon">
 											<!--begin::Svg Icon | path: icons/duotune/abstract/abs027.svg-->
 											<span class="svg-icon svg-icon-2">
@@ -76,7 +76,7 @@
 											</span>
 											<!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Light Aside</span>
+										<span class="menu-title">Sessions</span>
 									</a>
 								</div>
 								<div class="menu-item">
@@ -91,7 +91,7 @@
 											</span>
 											<!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Only Header</span>
+										<span class="menu-title">#</span>
 									</a>
 								</div>
 								<div class="menu-item">
@@ -107,7 +107,7 @@
 											</span>
 											<!--end::Svg Icon-->
 										</span>
-										<span class="menu-title">Landing Page</span>
+										<span class="menu-title">#</span>
 									</a>
 								</div>
 							</div>
