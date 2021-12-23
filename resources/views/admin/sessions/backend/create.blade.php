@@ -2,9 +2,9 @@
 
 @section('content')
 <!--begin::Modal - Customers - Add-->
-<div>
+<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
     <!--begin::Modal dialog-->
-    <div class="modal-dialog modal-dialog-centered mw-650px">
+    <div class="modal-dialog modal-dialog-centered w-700px">
         <!--begin::Modal content-->
         <div class="modal-content">
             <!--begin::Form-->
@@ -36,7 +36,7 @@
                             <!--begin::Label-->
                             <label class="fs-6 fw-bold mb-2">
                                 <span class="required">Price</span>
-                                <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Email address must be active"></i>
+                                <i class="fas fa-exclamation-circle ms-1 fs-7" data-bs-toggle="tooltip" title="Price Must Be Reasonable"></i>
                             </label>
                             <!--end::Label-->
                             <!--begin::Input-->

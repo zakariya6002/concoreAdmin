@@ -2,7 +2,7 @@
 
 @section('content')
 <!--begin::Content-->
-<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+<div class="content d-flex flex-column flex-column-fluid py-2" id="kt_content">
 						<!--begin::Post-->
 						<div class="post d-flex flex-column-fluid" id="kt_post">
 							<!--begin::Container-->
@@ -18,7 +18,7 @@
 												<span class="text-muted mt-1 fw-bold fs-7">Preview monthly events</span>
 											</h3>
 											<div class="card-toolbar">
-												<a href="../../demo1/dist/apps/calendar.html" class="btn btn-primary">Manage Calendar</a>
+												<a href="#" class="btn btn-primary">Manage Calendar</a>
 											</div>
 										</div>
 										<!--end::Card header-->

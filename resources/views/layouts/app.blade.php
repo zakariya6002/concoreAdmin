@@ -45,6 +45,8 @@
 				@include('header-menu')
 				<!-- content -->
 				@yield('content')
+
+				@include('footer-menu')
 			</div>
 		</div>
 	</div>
