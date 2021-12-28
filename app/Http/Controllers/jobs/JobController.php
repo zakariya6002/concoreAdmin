@@ -17,7 +17,8 @@ class JobController extends Controller
     public function index()
     {   
         $jobs = Job::all();
-        return view('admin.jobs.index',compact('jobs'));
+        $session = SessionType::all();
+        return view('admin.jobs.index',compact('jobs','session'));
     }
 
     /**
@@ -38,7 +39,8 @@ class JobController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request)
-    {
+    {   
+        
         Job::create([
             'GU' => $request->GU,
             'SC' => $request->SC,
