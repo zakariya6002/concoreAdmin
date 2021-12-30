@@ -24,6 +24,8 @@ Route::resource('tutors',TutorController::class);
 Route::resource('jobs',JobController::class);
 Route::resource('sessions',SessionController::class);
 
+Route::post('/add',[HomeController::class, 'store'])->name('store');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
