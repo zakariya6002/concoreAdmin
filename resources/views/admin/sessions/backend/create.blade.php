@@ -1,8 +1,6 @@
-@extends('layouts.app')
-
-@section('content')
 <!--begin::Modal - Customers - Add-->
-<div class="content d-flex flex-column flex-column-fluid" id="kt_content">
+<!--begin::Modal - Add task-->
+<div class="modal fade" id="kt_modal_add_user" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
     <div class="modal-dialog modal-dialog-centered w-700px">
         <!--begin::Modal content-->
@@ -68,4 +66,3 @@
     </div>
 </div>
 <!--end::Modal - Customers - Add-->
-@endsection
