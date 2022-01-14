@@ -1,26 +1,14 @@
 <!--begin::Modal - Add task-->
 <div class="modal fade" id="kt_modal_add_user" tabindex="-1" aria-hidden="true">
     <!--begin::Modal dialog-->
-    <div class="modal-dialog modal-dialog-centered mw-650px">
+    <div class="modal-dialog">
         <!--begin::Modal content-->
         <div class="modal-content">
             <!--begin::Modal header-->
             <div class="modal-header" id="kt_modal_add_user_header">
                 <!--begin::Modal title-->
-                <h2 class="fw-bolder">Add User</h2>
+                <h2 class="fw-bolder">Add Tutor</h2>
                 <!--end::Modal title-->
-                <!--begin::Close-->
-                <div class="btn btn-icon btn-sm btn-active-icon-primary" data-kt-users-modal-action="close">
-                    <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
-                    <span class="svg-icon svg-icon-1">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                            <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)" fill="black" />
-                            <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)" fill="black" />
-                        </svg>
-                    </span>
-                    <!--end::Svg Icon-->
-                </div>
-                <!--end::Close-->
             </div>
             <!--end::Modal header-->
             <!--begin::Modal body-->
@@ -38,10 +26,10 @@
                             <!--begin::Image input-->
                             <div class="image-input image-input-outline" data-kt-image-input="true" style="background-image: url(assets/media/avatars/blank.png)">
                                 <!--begin::Preview existing avatar-->
-                                <div class="image-input-wrapper w-125px h-125px" style="background-image: url(assets/media/avatars/150-1.jpg);"></div>
+                                <div class="image-input-wrapper w-105px h-120px justify" style="background-image: url(assets/media/avatars/150-1.jpg);"></div>
                                 <!--end::Preview existing avatar-->
                                 <!--begin::Label-->
-                                <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
+                                <label class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body " data-kt-image-input-action="change" data-bs-toggle="tooltip" title="Change avatar">
                                     <i class="bi bi-pencil-fill fs-7"></i>
                                     <!--begin::Inputs-->
                                     <input type="file" name="avatar" accept=".png, .jpg, .jpeg" />
@@ -50,12 +38,12 @@
                                 </label>
                                 <!--end::Label-->
                                 <!--begin::Cancel-->
-                                <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
+                                <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body" data-kt-image-input-action="cancel" data-bs-toggle="tooltip" title="Cancel avatar">
                                     <i class="bi bi-x fs-2"></i>
                                 </span>
                                 <!--end::Cancel-->
                                 <!--begin::Remove-->
-                                <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body shadow" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
+                                <span class="btn btn-icon btn-circle btn-active-color-primary w-25px h-25px bg-body" data-kt-image-input-action="remove" data-bs-toggle="tooltip" title="Remove avatar">
                                     <i class="bi bi-x fs-2"></i>
                                 </span>
                                 <!--end::Remove-->
@@ -69,10 +57,10 @@
                         <!--begin::Input group-->
                         <div class="fv-row mb-7">
                             <!--begin::Label-->
-                            <label class="required fw-bold fs-6 mb-2">Full Name</label>
+                            <label class="required fw-bold fs-6 mb-2">Name</label>
                             <!--end::Label-->
                             <!--begin::Input-->
-                            <input type="text" name="user_name" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="Full name" value="Emma Smith" />
+                            <input type="text" name="name" class="form-control form-control-solid mb-3 mb-lg-0"/>
                             <!--end::Input-->
                         </div>
                         <!--end::Input group-->
@@ -82,7 +70,27 @@
                             <label class="required fw-bold fs-6 mb-2">Email</label>
                             <!--end::Label-->
                             <!--begin::Input-->
-                            <input type="email" name="user_email" class="form-control form-control-solid mb-3 mb-lg-0" placeholder="example@domain.com" value="e.smith@kpmg.com.au" />
+                            <input type="email" name="email" class="form-control form-control-solid mb-3 mb-lg-0" />
+                            <!--end::Input-->
+                        </div>
+                        <!--end::Input group-->
+                           <!--begin::Input group-->
+                           <div class="fv-row mb-7">
+                            <!--begin::Label-->
+                            <label class="required fw-bold fs-6 mb-2">Password</label>
+                            <!--end::Label-->
+                            <!--begin::Input-->
+                            <input type="password" name="password" class="form-control form-control-solid mb-3 mb-lg-0"/>
+                            <!--end::Input-->
+                        </div>
+                        <!--end::Input group-->
+                           <!--begin::Input group-->
+                           <div class="fv-row mb-7">
+                            <!--begin::Label-->
+                            <label class="required fw-bold fs-6 mb-2">Confirm Password</label>
+                            <!--end::Label-->
+                            <!--begin::Input-->
+                            <input type="password" name="password_confirmation" class="form-control form-control-solid mb-3 mb-lg-0"/>
                             <!--end::Input-->
                         </div>
                         <!--end::Input group-->
